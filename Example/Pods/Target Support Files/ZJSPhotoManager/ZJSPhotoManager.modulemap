@@ -1,0 +1,6 @@
+framework module ZJSPhotoManager {
+  umbrella header "ZJSPhotoManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

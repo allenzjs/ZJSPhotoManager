@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		211296C055092F20BDAAD435829A3AD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		42FCA31239611B53B31A17C116CD9F42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5B2D2F0C4CA191E4C76591AB4144119E /* Pods-ZJSPhotoManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5062195D564795C512C74FF7F05981A1 /* Pods-ZJSPhotoManager_Tests-dummy.m */; };
+		5C7E8CC733C668B3E06BB49741634DB1 /* ZJSPhotoManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31784E7FD61D458A133E2EA1D7F26C89 /* ZJSPhotoManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76AAD417BCECDD41E616D29FECFE449C /* Pods-ZJSPhotoManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AAA38B030E53BB058493FFD3BB6C8EA /* Pods-ZJSPhotoManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		915C0CC5FB6CE04E621D322EA03758D4 /* Pods-ZJSPhotoManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B45EB9323E1078F5F1AF86CA40800C2 /* Pods-ZJSPhotoManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D354C300A0C085068BD6F25AAB1591B /* Pods-ZJSPhotoManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB70803A87E8334F530135DD485EB06 /* Pods-ZJSPhotoManager_Example-dummy.m */; };
+		AB9D79D6E6B5A87DFA7DEE45EC66E52F /* ZJSPhotoManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EF601DC1CFECD4199DF2EFB8335CC6 /* ZJSPhotoManager-dummy.m */; };
+		DDD60BDB7A1FFF33F7331207C1149ECE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F78707A33556C7722E7F3AB8070C4281 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF4C411C28398FF28A3F9122A091CB1 /* ReplaceMe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3351806D183BCBB7827B1CB18235F5AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF411E838025BF049DE8964508B38603;
+			remoteInfo = "Pods-ZJSPhotoManager_Example";
+		};
+		BF0E11A2D5A793EB2381EF0E69D8B2CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2009AA043F1DCE3936D57A8C216E0DBC;
+			remoteInfo = ZJSPhotoManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EE69F88C6C35DC65C1E45F8B5B560AE /* Pods_ZJSPhotoManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZJSPhotoManager_Example.framework; path = "Pods-ZJSPhotoManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		115D10C7F8D81B16A0F64B9ACEE246DD /* Pods-ZJSPhotoManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJSPhotoManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		11F115A802700BC8B81708621B0A49E2 /* ZJSPhotoManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZJSPhotoManager.framework; path = ZJSPhotoManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AF4C411C28398FF28A3F9122A091CB1 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZJSPhotoManager/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		23608A0C913E2857BA894B1239A288E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25F5BC1FB1D6325FE25634F0AF044C43 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26B2E9F36FBACF90989447E4812838FA /* ZJSPhotoManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJSPhotoManager.xcconfig; sourceTree = "<group>"; };
+		2C29B51B7BCB2B1EC8C159A73076C818 /* Pods-ZJSPhotoManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJSPhotoManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2E3A2FD4C44D8C1FF420C1F9C089D4FC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		31784E7FD61D458A133E2EA1D7F26C89 /* ZJSPhotoManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJSPhotoManager-umbrella.h"; sourceTree = "<group>"; };
+		3540F3A735EAE0AC5345BB369F452FCC /* Pods-ZJSPhotoManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJSPhotoManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3A74438DD556E76B18BA0FD706D80148 /* Pods-ZJSPhotoManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJSPhotoManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		40EF601DC1CFECD4199DF2EFB8335CC6 /* ZJSPhotoManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZJSPhotoManager-dummy.m"; sourceTree = "<group>"; };
+		4B45EB9323E1078F5F1AF86CA40800C2 /* Pods-ZJSPhotoManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZJSPhotoManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5062195D564795C512C74FF7F05981A1 /* Pods-ZJSPhotoManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJSPhotoManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		583EAD64DFF00A0ED017BC65CEDB658E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		62160B47FA96583A15E0048C04219E23 /* ZJSPhotoManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJSPhotoManager-prefix.pch"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75CA9622B7524B62286FA6693DDBA677 /* Pods-ZJSPhotoManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJSPhotoManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		79C7AF1246E5DEC3DFAA35F4353EFD54 /* ZJSPhotoManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ZJSPhotoManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		82B1199EB47BD0C4B10FF83871E4C0D0 /* Pods-ZJSPhotoManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJSPhotoManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		84755F5EFCC63A530E3AF3FCBD72217C /* Pods_ZJSPhotoManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZJSPhotoManager_Tests.framework; path = "Pods-ZJSPhotoManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AAA38B030E53BB058493FFD3BB6C8EA /* Pods-ZJSPhotoManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZJSPhotoManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A4BF64D7B4D642B96F9E54DACD7C38A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8B897BB082808F8B391E852B4D1C021 /* Pods-ZJSPhotoManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZJSPhotoManager_Tests.modulemap"; sourceTree = "<group>"; };
+		AF2F8F8C0299F52B948332698E449C53 /* Pods-ZJSPhotoManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJSPhotoManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BEBA1B5F13FEDD84CB37FAA2A9DE8BA2 /* Pods-ZJSPhotoManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJSPhotoManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BFFC84D2DAEA25C2CF38C18F96253F7B /* Pods-ZJSPhotoManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZJSPhotoManager_Example.modulemap"; sourceTree = "<group>"; };
+		D7B8C14FF8242E42CC0B6B960AFE1FBD /* Pods-ZJSPhotoManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJSPhotoManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9051E9C52A91401CF91EE11175ECCF7 /* Pods-ZJSPhotoManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJSPhotoManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DCB70803A87E8334F530135DD485EB06 /* Pods-ZJSPhotoManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJSPhotoManager_Example-dummy.m"; sourceTree = "<group>"; };
+		E8813A2FE3C1FAAAACDAD3CBE773BA9E /* Pods-ZJSPhotoManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJSPhotoManager_Example-resources.sh"; sourceTree = "<group>"; };
+		E9364094E8B8E6C3D7165815C22DB636 /* ZJSPhotoManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZJSPhotoManager.modulemap; sourceTree = "<group>"; };
+		F883289A68D3D1AEF63F175D6E15E7D5 /* Pods-ZJSPhotoManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJSPhotoManager_Tests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D6D9B8B6F4F023384293BFD10FC7C7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FCA31239611B53B31A17C116CD9F42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5BC382373452CA809A3E00FC9B9686 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211296C055092F20BDAAD435829A3AD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE4868F2A7E855241547879F88DCD32B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD60BDB7A1FFF33F7331207C1149ECE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19A8D254D22B7E5760850BFDD323EBED /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D149A9840071E9EF4D7EF2A926823008 /* ZJSPhotoManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2FB14C21E117745C298FAA8CDD2EBC0B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7222685AC45A4B496C8B88B14933BBC0 /* Pods-ZJSPhotoManager_Example */,
+				BDD84D2373E0A2091567155C992BB99C /* Pods-ZJSPhotoManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6D5C5184578C3957821307A829B6057F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				25F5BC1FB1D6325FE25634F0AF044C43 /* Info.plist */,
+				E9364094E8B8E6C3D7165815C22DB636 /* ZJSPhotoManager.modulemap */,
+				26B2E9F36FBACF90989447E4812838FA /* ZJSPhotoManager.xcconfig */,
+				40EF601DC1CFECD4199DF2EFB8335CC6 /* ZJSPhotoManager-dummy.m */,
+				62160B47FA96583A15E0048C04219E23 /* ZJSPhotoManager-prefix.pch */,
+				31784E7FD61D458A133E2EA1D7F26C89 /* ZJSPhotoManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZJSPhotoManager";
+			sourceTree = "<group>";
+		};
+		7222685AC45A4B496C8B88B14933BBC0 /* Pods-ZJSPhotoManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				23608A0C913E2857BA894B1239A288E4 /* Info.plist */,
+				BFFC84D2DAEA25C2CF38C18F96253F7B /* Pods-ZJSPhotoManager_Example.modulemap */,
+				D9051E9C52A91401CF91EE11175ECCF7 /* Pods-ZJSPhotoManager_Example-acknowledgements.markdown */,
+				115D10C7F8D81B16A0F64B9ACEE246DD /* Pods-ZJSPhotoManager_Example-acknowledgements.plist */,
+				DCB70803A87E8334F530135DD485EB06 /* Pods-ZJSPhotoManager_Example-dummy.m */,
+				75CA9622B7524B62286FA6693DDBA677 /* Pods-ZJSPhotoManager_Example-frameworks.sh */,
+				E8813A2FE3C1FAAAACDAD3CBE773BA9E /* Pods-ZJSPhotoManager_Example-resources.sh */,
+				8AAA38B030E53BB058493FFD3BB6C8EA /* Pods-ZJSPhotoManager_Example-umbrella.h */,
+				2C29B51B7BCB2B1EC8C159A73076C818 /* Pods-ZJSPhotoManager_Example.debug.xcconfig */,
+				BEBA1B5F13FEDD84CB37FAA2A9DE8BA2 /* Pods-ZJSPhotoManager_Example.release.xcconfig */,
+			);
+			name = "Pods-ZJSPhotoManager_Example";
+			path = "Target Support Files/Pods-ZJSPhotoManager_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				19A8D254D22B7E5760850BFDD323EBED /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9B752FAE41B5E4A256B3E7271EEDA4C9 /* Products */,
+				2FB14C21E117745C298FAA8CDD2EBC0B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		91AA50A6062C758ECCC5E943DB104A89 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2E3A2FD4C44D8C1FF420C1F9C089D4FC /* LICENSE */,
+				583EAD64DFF00A0ED017BC65CEDB658E /* README.md */,
+				79C7AF1246E5DEC3DFAA35F4353EFD54 /* ZJSPhotoManager.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9B752FAE41B5E4A256B3E7271EEDA4C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EE69F88C6C35DC65C1E45F8B5B560AE /* Pods_ZJSPhotoManager_Example.framework */,
+				84755F5EFCC63A530E3AF3FCBD72217C /* Pods_ZJSPhotoManager_Tests.framework */,
+				11F115A802700BC8B81708621B0A49E2 /* ZJSPhotoManager.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDD84D2373E0A2091567155C992BB99C /* Pods-ZJSPhotoManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9A4BF64D7B4D642B96F9E54DACD7C38A /* Info.plist */,
+				A8B897BB082808F8B391E852B4D1C021 /* Pods-ZJSPhotoManager_Tests.modulemap */,
+				3A74438DD556E76B18BA0FD706D80148 /* Pods-ZJSPhotoManager_Tests-acknowledgements.markdown */,
+				82B1199EB47BD0C4B10FF83871E4C0D0 /* Pods-ZJSPhotoManager_Tests-acknowledgements.plist */,
+				5062195D564795C512C74FF7F05981A1 /* Pods-ZJSPhotoManager_Tests-dummy.m */,
+				AF2F8F8C0299F52B948332698E449C53 /* Pods-ZJSPhotoManager_Tests-frameworks.sh */,
+				F883289A68D3D1AEF63F175D6E15E7D5 /* Pods-ZJSPhotoManager_Tests-resources.sh */,
+				4B45EB9323E1078F5F1AF86CA40800C2 /* Pods-ZJSPhotoManager_Tests-umbrella.h */,
+				D7B8C14FF8242E42CC0B6B960AFE1FBD /* Pods-ZJSPhotoManager_Tests.debug.xcconfig */,
+				3540F3A735EAE0AC5345BB369F452FCC /* Pods-ZJSPhotoManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZJSPhotoManager_Tests";
+			path = "Target Support Files/Pods-ZJSPhotoManager_Tests";
+			sourceTree = "<group>";
+		};
+		D149A9840071E9EF4D7EF2A926823008 /* ZJSPhotoManager */ = {
+			isa = PBXGroup;
+			children = (
+				1AF4C411C28398FF28A3F9122A091CB1 /* ReplaceMe.m */,
+				91AA50A6062C758ECCC5E943DB104A89 /* Pod */,
+				6D5C5184578C3957821307A829B6057F /* Support Files */,
+			);
+			name = ZJSPhotoManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1A592CB3032D94E22F234BB0945F0297 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C7E8CC733C668B3E06BB49741634DB1 /* ZJSPhotoManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20910D44B4F7A1929CEA4EA75769EE56 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AAD417BCECDD41E616D29FECFE449C /* Pods-ZJSPhotoManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA52B46B28E29CC7F57C26329967EEF4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				915C0CC5FB6CE04E621D322EA03758D4 /* Pods-ZJSPhotoManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2009AA043F1DCE3936D57A8C216E0DBC /* ZJSPhotoManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 648720774452ED823919ABC98C3B44FF /* Build configuration list for PBXNativeTarget "ZJSPhotoManager" */;
+			buildPhases = (
+				B9C0859F51E374DD34243CA943329D64 /* Sources */,
+				3D6D9B8B6F4F023384293BFD10FC7C7D /* Frameworks */,
+				1A592CB3032D94E22F234BB0945F0297 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJSPhotoManager;
+			productName = ZJSPhotoManager;
+			productReference = 11F115A802700BC8B81708621B0A49E2 /* ZJSPhotoManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4026AD1D727D6E81AACFD4349603A520 /* Pods-ZJSPhotoManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76FEE55F865905263BEA4C460E5ED80F /* Build configuration list for PBXNativeTarget "Pods-ZJSPhotoManager_Tests" */;
+			buildPhases = (
+				9193C297993456C79A1A499F50FF78BF /* Sources */,
+				5A5BC382373452CA809A3E00FC9B9686 /* Frameworks */,
+				EA52B46B28E29CC7F57C26329967EEF4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0DEA3CCF851D8CBFCFF5C0EC693AAFF /* PBXTargetDependency */,
+			);
+			name = "Pods-ZJSPhotoManager_Tests";
+			productName = "Pods-ZJSPhotoManager_Tests";
+			productReference = 84755F5EFCC63A530E3AF3FCBD72217C /* Pods_ZJSPhotoManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF411E838025BF049DE8964508B38603 /* Pods-ZJSPhotoManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BB015DAA0DBFFB4B45256F182143508 /* Build configuration list for PBXNativeTarget "Pods-ZJSPhotoManager_Example" */;
+			buildPhases = (
+				6CA0965E28DAC18529CDFDF14D3D0929 /* Sources */,
+				FE4868F2A7E855241547879F88DCD32B /* Frameworks */,
+				20910D44B4F7A1929CEA4EA75769EE56 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE98A2E1DAAAD0D7DD88AAF89D35D6E9 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZJSPhotoManager_Example";
+			productName = "Pods-ZJSPhotoManager_Example";
+			productReference = 0EE69F88C6C35DC65C1E45F8B5B560AE /* Pods_ZJSPhotoManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9B752FAE41B5E4A256B3E7271EEDA4C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF411E838025BF049DE8964508B38603 /* Pods-ZJSPhotoManager_Example */,
+				4026AD1D727D6E81AACFD4349603A520 /* Pods-ZJSPhotoManager_Tests */,
+				2009AA043F1DCE3936D57A8C216E0DBC /* ZJSPhotoManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CA0965E28DAC18529CDFDF14D3D0929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D354C300A0C085068BD6F25AAB1591B /* Pods-ZJSPhotoManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9193C297993456C79A1A499F50FF78BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2D2F0C4CA191E4C76591AB4144119E /* Pods-ZJSPhotoManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C0859F51E374DD34243CA943329D64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78707A33556C7722E7F3AB8070C4281 /* ReplaceMe.m in Sources */,
+				AB9D79D6E6B5A87DFA7DEE45EC66E52F /* ZJSPhotoManager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0DEA3CCF851D8CBFCFF5C0EC693AAFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZJSPhotoManager_Example";
+			target = BF411E838025BF049DE8964508B38603 /* Pods-ZJSPhotoManager_Example */;
+			targetProxy = 3351806D183BCBB7827B1CB18235F5AB /* PBXContainerItemProxy */;
+		};
+		FE98A2E1DAAAD0D7DD88AAF89D35D6E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZJSPhotoManager;
+			target = 2009AA043F1DCE3936D57A8C216E0DBC /* ZJSPhotoManager */;
+			targetProxy = BF0E11A2D5A793EB2381EF0E69D8B2CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15AE8AD5B8968445E7C77E3091D6183D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7B8C14FF8242E42CC0B6B960AFE1FBD /* Pods-ZJSPhotoManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZJSPhotoManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZJSPhotoManager_Tests/Pods-ZJSPhotoManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		69576DF59B241DF703672A00759F053F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3540F3A735EAE0AC5345BB369F452FCC /* Pods-ZJSPhotoManager_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZJSPhotoManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZJSPhotoManager_Tests/Pods-ZJSPhotoManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B25FCF3C8B153EB3248CB4E16E7B7E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C29B51B7BCB2B1EC8C159A73076C818 /* Pods-ZJSPhotoManager_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZJSPhotoManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZJSPhotoManager_Example/Pods-ZJSPhotoManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		93C7846FC84E3959543586A699F648FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26B2E9F36FBACF90989447E4812838FA /* ZJSPhotoManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZJSPhotoManager/ZJSPhotoManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZJSPhotoManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZJSPhotoManager/ZJSPhotoManager.modulemap";
+				PRODUCT_MODULE_NAME = ZJSPhotoManager;
+				PRODUCT_NAME = ZJSPhotoManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9AFA2CC4D1AC2DE904448E4CC0329395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEBA1B5F13FEDD84CB37FAA2A9DE8BA2 /* Pods-ZJSPhotoManager_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZJSPhotoManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZJSPhotoManager_Example/Pods-ZJSPhotoManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F47DFF16CC441310B7595B48BA087C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26B2E9F36FBACF90989447E4812838FA /* ZJSPhotoManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZJSPhotoManager/ZJSPhotoManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZJSPhotoManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZJSPhotoManager/ZJSPhotoManager.modulemap";
+				PRODUCT_MODULE_NAME = ZJSPhotoManager;
+				PRODUCT_NAME = ZJSPhotoManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BB015DAA0DBFFB4B45256F182143508 /* Build configuration list for PBXNativeTarget "Pods-ZJSPhotoManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B25FCF3C8B153EB3248CB4E16E7B7E5 /* Debug */,
+				9AFA2CC4D1AC2DE904448E4CC0329395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		648720774452ED823919ABC98C3B44FF /* Build configuration list for PBXNativeTarget "ZJSPhotoManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C7846FC84E3959543586A699F648FD /* Debug */,
+				F47DFF16CC441310B7595B48BA087C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76FEE55F865905263BEA4C460E5ED80F /* Build configuration list for PBXNativeTarget "Pods-ZJSPhotoManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15AE8AD5B8968445E7C77E3091D6183D /* Debug */,
+				69576DF59B241DF703672A00759F053F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

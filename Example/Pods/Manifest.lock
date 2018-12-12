@@ -1,0 +1,16 @@
+PODS:
+  - ZJSPhotoManager (0.1.0)
+
+DEPENDENCIES:
+  - ZJSPhotoManager (from `../`)
+
+EXTERNAL SOURCES:
+  ZJSPhotoManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZJSPhotoManager: a6ec36a06906b5dd8e689b5248c31bcdafe87478
+
+PODFILE CHECKSUM: 624c060b6b1c0e59e87c03a2420da221b97028f6
+
+COCOAPODS: 1.5.3

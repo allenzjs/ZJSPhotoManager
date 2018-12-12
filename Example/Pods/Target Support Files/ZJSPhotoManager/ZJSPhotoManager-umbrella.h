@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "ALAssetsLibrary+ZJSUtil.h"
+#import "ZJSPhotoManager.h"
 
 FOUNDATION_EXPORT double ZJSPhotoManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZJSPhotoManagerVersionString[];

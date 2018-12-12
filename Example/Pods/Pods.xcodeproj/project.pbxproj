@@ -9,14 +9,17 @@
 /* Begin PBXBuildFile section */
 		211296C055092F20BDAAD435829A3AD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		42FCA31239611B53B31A17C116CD9F42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		57835BD23331F92D9DA5F76CF9AAB9F2 /* ZJSPhotoManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AABEEC4DC12B99AACBD259BC4A4191EB /* ZJSPhotoManager-dummy.m */; };
 		5B2D2F0C4CA191E4C76591AB4144119E /* Pods-ZJSPhotoManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5062195D564795C512C74FF7F05981A1 /* Pods-ZJSPhotoManager_Tests-dummy.m */; };
-		5C7E8CC733C668B3E06BB49741634DB1 /* ZJSPhotoManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31784E7FD61D458A133E2EA1D7F26C89 /* ZJSPhotoManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C24ED4BB9F2A8321CCA2AF1F03BB959 /* ZJSPhotoManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61D67FB7F3A76B30CE4A2F89E8C29F8C /* ZJSPhotoManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76AAD417BCECDD41E616D29FECFE449C /* Pods-ZJSPhotoManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AAA38B030E53BB058493FFD3BB6C8EA /* Pods-ZJSPhotoManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		915C0CC5FB6CE04E621D322EA03758D4 /* Pods-ZJSPhotoManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B45EB9323E1078F5F1AF86CA40800C2 /* Pods-ZJSPhotoManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D354C300A0C085068BD6F25AAB1591B /* Pods-ZJSPhotoManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB70803A87E8334F530135DD485EB06 /* Pods-ZJSPhotoManager_Example-dummy.m */; };
-		AB9D79D6E6B5A87DFA7DEE45EC66E52F /* ZJSPhotoManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EF601DC1CFECD4199DF2EFB8335CC6 /* ZJSPhotoManager-dummy.m */; };
+		ADE1DA0B185B4D7A7EE8EBA599C2C7ED /* ALAssetsLibrary+ZJSUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EF3AF39F6435553112925BEFB1BF1B2 /* ALAssetsLibrary+ZJSUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2454E3BE6DB417C695F4689B49DC186 /* ZJSPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F0457A5E324EBA98789347C5182E0A15 /* ZJSPhotoManager.m */; };
+		BAA6804DA7CEB3D55355884CF20F0100 /* ALAssetsLibrary+ZJSUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5B975D16798754FF8C8C577BB05473 /* ALAssetsLibrary+ZJSUtil.m */; };
 		DDD60BDB7A1FFF33F7331207C1149ECE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		F78707A33556C7722E7F3AB8070C4281 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF4C411C28398FF28A3F9122A091CB1 /* ReplaceMe.m */; };
+		EA4647F6F19F4B55F347DC5D19B97FF3 /* ZJSPhotoManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DA2E8DE996F9302E8B4D23108E8541A6 /* ZJSPhotoManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,38 +43,41 @@
 		0EE69F88C6C35DC65C1E45F8B5B560AE /* Pods_ZJSPhotoManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZJSPhotoManager_Example.framework; path = "Pods-ZJSPhotoManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		115D10C7F8D81B16A0F64B9ACEE246DD /* Pods-ZJSPhotoManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJSPhotoManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		11F115A802700BC8B81708621B0A49E2 /* ZJSPhotoManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZJSPhotoManager.framework; path = ZJSPhotoManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1AF4C411C28398FF28A3F9122A091CB1 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZJSPhotoManager/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		23608A0C913E2857BA894B1239A288E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		25F5BC1FB1D6325FE25634F0AF044C43 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26B2E9F36FBACF90989447E4812838FA /* ZJSPhotoManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJSPhotoManager.xcconfig; sourceTree = "<group>"; };
 		2C29B51B7BCB2B1EC8C159A73076C818 /* Pods-ZJSPhotoManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJSPhotoManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2E3A2FD4C44D8C1FF420C1F9C089D4FC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		31784E7FD61D458A133E2EA1D7F26C89 /* ZJSPhotoManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJSPhotoManager-umbrella.h"; sourceTree = "<group>"; };
+		2ED16D596CA67AF7C142BF80CBAEF80B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		3540F3A735EAE0AC5345BB369F452FCC /* Pods-ZJSPhotoManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJSPhotoManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3A74438DD556E76B18BA0FD706D80148 /* Pods-ZJSPhotoManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJSPhotoManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		40EF601DC1CFECD4199DF2EFB8335CC6 /* ZJSPhotoManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZJSPhotoManager-dummy.m"; sourceTree = "<group>"; };
 		4B45EB9323E1078F5F1AF86CA40800C2 /* Pods-ZJSPhotoManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZJSPhotoManager_Tests-umbrella.h"; sourceTree = "<group>"; };
 		5062195D564795C512C74FF7F05981A1 /* Pods-ZJSPhotoManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJSPhotoManager_Tests-dummy.m"; sourceTree = "<group>"; };
-		583EAD64DFF00A0ED017BC65CEDB658E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		62160B47FA96583A15E0048C04219E23 /* ZJSPhotoManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJSPhotoManager-prefix.pch"; sourceTree = "<group>"; };
+		61D67FB7F3A76B30CE4A2F89E8C29F8C /* ZJSPhotoManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJSPhotoManager-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		75CA9622B7524B62286FA6693DDBA677 /* Pods-ZJSPhotoManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJSPhotoManager_Example-frameworks.sh"; sourceTree = "<group>"; };
-		79C7AF1246E5DEC3DFAA35F4353EFD54 /* ZJSPhotoManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ZJSPhotoManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		82B1199EB47BD0C4B10FF83871E4C0D0 /* Pods-ZJSPhotoManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJSPhotoManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		84755F5EFCC63A530E3AF3FCBD72217C /* Pods_ZJSPhotoManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZJSPhotoManager_Tests.framework; path = "Pods-ZJSPhotoManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AAA38B030E53BB058493FFD3BB6C8EA /* Pods-ZJSPhotoManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZJSPhotoManager_Example-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A4BF64D7B4D642B96F9E54DACD7C38A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EF3AF39F6435553112925BEFB1BF1B2 /* ALAssetsLibrary+ZJSUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALAssetsLibrary+ZJSUtil.h"; path = "ZJSPhotoManager/Classes/ALAssetsLibrary+ZJSUtil.h"; sourceTree = "<group>"; };
+		9F030A0B96169C51129DD284AB38FA82 /* ZJSPhotoManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJSPhotoManager-prefix.pch"; sourceTree = "<group>"; };
 		A8B897BB082808F8B391E852B4D1C021 /* Pods-ZJSPhotoManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZJSPhotoManager_Tests.modulemap"; sourceTree = "<group>"; };
+		AABEEC4DC12B99AACBD259BC4A4191EB /* ZJSPhotoManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZJSPhotoManager-dummy.m"; sourceTree = "<group>"; };
 		AF2F8F8C0299F52B948332698E449C53 /* Pods-ZJSPhotoManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJSPhotoManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B9B65648BE5DCB61639736C674499ACF /* ZJSPhotoManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZJSPhotoManager.modulemap; sourceTree = "<group>"; };
 		BEBA1B5F13FEDD84CB37FAA2A9DE8BA2 /* Pods-ZJSPhotoManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJSPhotoManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BFFC84D2DAEA25C2CF38C18F96253F7B /* Pods-ZJSPhotoManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZJSPhotoManager_Example.modulemap"; sourceTree = "<group>"; };
 		D7B8C14FF8242E42CC0B6B960AFE1FBD /* Pods-ZJSPhotoManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJSPhotoManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D9051E9C52A91401CF91EE11175ECCF7 /* Pods-ZJSPhotoManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJSPhotoManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DA2E8DE996F9302E8B4D23108E8541A6 /* ZJSPhotoManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJSPhotoManager.h; path = ZJSPhotoManager/Classes/ZJSPhotoManager.h; sourceTree = "<group>"; };
 		DCB70803A87E8334F530135DD485EB06 /* Pods-ZJSPhotoManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJSPhotoManager_Example-dummy.m"; sourceTree = "<group>"; };
+		DDEFB94151C99158A8CED28BB497B257 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E497680D55E05B01A3AEBD97B00CF060 /* ZJSPhotoManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ZJSPhotoManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E569938D206BFB80EE4D8E2CE8C5033B /* ZJSPhotoManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJSPhotoManager.xcconfig; sourceTree = "<group>"; };
 		E8813A2FE3C1FAAAACDAD3CBE773BA9E /* Pods-ZJSPhotoManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJSPhotoManager_Example-resources.sh"; sourceTree = "<group>"; };
-		E9364094E8B8E6C3D7165815C22DB636 /* ZJSPhotoManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZJSPhotoManager.modulemap; sourceTree = "<group>"; };
+		EA5B975D16798754FF8C8C577BB05473 /* ALAssetsLibrary+ZJSUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALAssetsLibrary+ZJSUtil.m"; path = "ZJSPhotoManager/Classes/ALAssetsLibrary+ZJSUtil.m"; sourceTree = "<group>"; };
+		F0457A5E324EBA98789347C5182E0A15 /* ZJSPhotoManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZJSPhotoManager.m; path = ZJSPhotoManager/Classes/ZJSPhotoManager.m; sourceTree = "<group>"; };
 		F883289A68D3D1AEF63F175D6E15E7D5 /* Pods-ZJSPhotoManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJSPhotoManager_Tests-resources.sh"; sourceTree = "<group>"; };
+		F909448506A5E1067D3110EFA99BB878 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,12 +108,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		19A8D254D22B7E5760850BFDD323EBED /* Development Pods */ = {
+		223877F6F80204FCCB9AF5BE3E8B1FEA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D149A9840071E9EF4D7EF2A926823008 /* ZJSPhotoManager */,
+				F909448506A5E1067D3110EFA99BB878 /* Info.plist */,
+				B9B65648BE5DCB61639736C674499ACF /* ZJSPhotoManager.modulemap */,
+				E569938D206BFB80EE4D8E2CE8C5033B /* ZJSPhotoManager.xcconfig */,
+				AABEEC4DC12B99AACBD259BC4A4191EB /* ZJSPhotoManager-dummy.m */,
+				9F030A0B96169C51129DD284AB38FA82 /* ZJSPhotoManager-prefix.pch */,
+				61D67FB7F3A76B30CE4A2F89E8C29F8C /* ZJSPhotoManager-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZJSPhotoManager";
 			sourceTree = "<group>";
 		};
 		2FB14C21E117745C298FAA8CDD2EBC0B /* Targets Support Files */ = {
@@ -119,18 +131,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6D5C5184578C3957821307A829B6057F /* Support Files */ = {
+		3E28EC8BBE55B2DD6A33AB17463E5C5F /* ZJSPhotoManager */ = {
 			isa = PBXGroup;
 			children = (
-				25F5BC1FB1D6325FE25634F0AF044C43 /* Info.plist */,
-				E9364094E8B8E6C3D7165815C22DB636 /* ZJSPhotoManager.modulemap */,
-				26B2E9F36FBACF90989447E4812838FA /* ZJSPhotoManager.xcconfig */,
-				40EF601DC1CFECD4199DF2EFB8335CC6 /* ZJSPhotoManager-dummy.m */,
-				62160B47FA96583A15E0048C04219E23 /* ZJSPhotoManager-prefix.pch */,
-				31784E7FD61D458A133E2EA1D7F26C89 /* ZJSPhotoManager-umbrella.h */,
+				9EF3AF39F6435553112925BEFB1BF1B2 /* ALAssetsLibrary+ZJSUtil.h */,
+				EA5B975D16798754FF8C8C577BB05473 /* ALAssetsLibrary+ZJSUtil.m */,
+				DA2E8DE996F9302E8B4D23108E8541A6 /* ZJSPhotoManager.h */,
+				F0457A5E324EBA98789347C5182E0A15 /* ZJSPhotoManager.m */,
+				E88F36F885AF671C4AC17180A8BA3636 /* Pod */,
+				223877F6F80204FCCB9AF5BE3E8B1FEA /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZJSPhotoManager";
+			name = ZJSPhotoManager;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7222685AC45A4B496C8B88B14933BBC0 /* Pods-ZJSPhotoManager_Example */ = {
@@ -155,21 +167,11 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				19A8D254D22B7E5760850BFDD323EBED /* Development Pods */,
+				A92E3949FE016A1EDCBA4BC6051F878B /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				9B752FAE41B5E4A256B3E7271EEDA4C9 /* Products */,
 				2FB14C21E117745C298FAA8CDD2EBC0B /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		91AA50A6062C758ECCC5E943DB104A89 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				2E3A2FD4C44D8C1FF420C1F9C089D4FC /* LICENSE */,
-				583EAD64DFF00A0ED017BC65CEDB658E /* README.md */,
-				79C7AF1246E5DEC3DFAA35F4353EFD54 /* ZJSPhotoManager.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		9B752FAE41B5E4A256B3E7271EEDA4C9 /* Products */ = {
@@ -180,6 +182,14 @@
 				11F115A802700BC8B81708621B0A49E2 /* ZJSPhotoManager.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A92E3949FE016A1EDCBA4BC6051F878B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E28EC8BBE55B2DD6A33AB17463E5C5F /* ZJSPhotoManager */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -208,17 +218,6 @@
 			path = "Target Support Files/Pods-ZJSPhotoManager_Tests";
 			sourceTree = "<group>";
 		};
-		D149A9840071E9EF4D7EF2A926823008 /* ZJSPhotoManager */ = {
-			isa = PBXGroup;
-			children = (
-				1AF4C411C28398FF28A3F9122A091CB1 /* ReplaceMe.m */,
-				91AA50A6062C758ECCC5E943DB104A89 /* Pod */,
-				6D5C5184578C3957821307A829B6057F /* Support Files */,
-			);
-			name = ZJSPhotoManager;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -227,22 +226,34 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		E88F36F885AF671C4AC17180A8BA3636 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2ED16D596CA67AF7C142BF80CBAEF80B /* LICENSE */,
+				DDEFB94151C99158A8CED28BB497B257 /* README.md */,
+				E497680D55E05B01A3AEBD97B00CF060 /* ZJSPhotoManager.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1A592CB3032D94E22F234BB0945F0297 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5C7E8CC733C668B3E06BB49741634DB1 /* ZJSPhotoManager-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		20910D44B4F7A1929CEA4EA75769EE56 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				76AAD417BCECDD41E616D29FECFE449C /* Pods-ZJSPhotoManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E357E8B9A8D290E9C8C80B0D5B892C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE1DA0B185B4D7A7EE8EBA599C2C7ED /* ALAssetsLibrary+ZJSUtil.h in Headers */,
+				5C24ED4BB9F2A8321CCA2AF1F03BB959 /* ZJSPhotoManager-umbrella.h in Headers */,
+				EA4647F6F19F4B55F347DC5D19B97FF3 /* ZJSPhotoManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +272,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 648720774452ED823919ABC98C3B44FF /* Build configuration list for PBXNativeTarget "ZJSPhotoManager" */;
 			buildPhases = (
-				B9C0859F51E374DD34243CA943329D64 /* Sources */,
+				8C69FF9F81A8F6FA7E5C7AAD52F2F069 /* Sources */,
 				3D6D9B8B6F4F023384293BFD10FC7C7D /* Frameworks */,
-				1A592CB3032D94E22F234BB0945F0297 /* Headers */,
+				91E357E8B9A8D290E9C8C80B0D5B892C /* Headers */,
 			);
 			buildRules = (
 			);
@@ -347,20 +358,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C69FF9F81A8F6FA7E5C7AAD52F2F069 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA6804DA7CEB3D55355884CF20F0100 /* ALAssetsLibrary+ZJSUtil.m in Sources */,
+				57835BD23331F92D9DA5F76CF9AAB9F2 /* ZJSPhotoManager-dummy.m in Sources */,
+				B2454E3BE6DB417C695F4689B49DC186 /* ZJSPhotoManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9193C297993456C79A1A499F50FF78BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5B2D2F0C4CA191E4C76591AB4144119E /* Pods-ZJSPhotoManager_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B9C0859F51E374DD34243CA943329D64 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F78707A33556C7722E7F3AB8070C4281 /* ReplaceMe.m in Sources */,
-				AB9D79D6E6B5A87DFA7DEE45EC66E52F /* ZJSPhotoManager-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,7 +559,7 @@
 		};
 		93C7846FC84E3959543586A699F648FD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26B2E9F36FBACF90989447E4812838FA /* ZJSPhotoManager.xcconfig */;
+			baseConfigurationReference = E569938D206BFB80EE4D8E2CE8C5033B /* ZJSPhotoManager.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -669,7 +681,7 @@
 		};
 		F47DFF16CC441310B7595B48BA087C5E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26B2E9F36FBACF90989447E4812838FA /* ZJSPhotoManager.xcconfig */;
+			baseConfigurationReference = E569938D206BFB80EE4D8E2CE8C5033B /* ZJSPhotoManager.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

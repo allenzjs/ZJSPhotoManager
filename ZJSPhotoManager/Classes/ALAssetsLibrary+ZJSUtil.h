@@ -19,9 +19,9 @@ NS_ASSUME_NONNULL_BEGIN
  * \param failure Block to be executed when failed to add the asset to the custom photo album
  */
 - (void)zjs_saveImage:(UIImage *)image
-          toAlbum:(NSString *)albumName
-       completion:(ALAssetsLibraryWriteImageCompletionBlock)completion
-          failure:(ALAssetsLibraryAccessFailureBlock)failure;
+              toAlbum:(NSString *)albumName
+           completion:(ALAssetsLibraryWriteImageCompletionBlock)completion
+              failure:(ALAssetsLibraryAccessFailureBlock)failure;
 
 /*! write the video to the assets library (camera roll).
  *
@@ -31,9 +31,9 @@ NS_ASSUME_NONNULL_BEGIN
  * \param failure block to be executed when failed to add the asset to the custom photo album
  */
 - (void)zjs_saveVideo:(NSURL *)videoUrl
-          toAlbum:(NSString *)albumName
-       completion:(ALAssetsLibraryWriteImageCompletionBlock)completion
-          failure:(ALAssetsLibraryAccessFailureBlock)failure;
+              toAlbum:(NSString *)albumName
+           completion:(ALAssetsLibraryWriteImageCompletionBlock)completion
+              failure:(ALAssetsLibraryAccessFailureBlock)failure;
 
 /*! Write the image data with meta data to the assets library (camera roll).
  *
@@ -44,10 +44,10 @@ NS_ASSUME_NONNULL_BEGIN
  * \param failure block to be executed when failed to add the asset to the custom photo album
  */
 - (void)zjs_saveImageData:(NSData *)imageData
-              toAlbum:(NSString *)albumName
-             metadata:(NSDictionary *)metadata
-           completion:(ALAssetsLibraryWriteImageCompletionBlock)completion
-              failure:(ALAssetsLibraryAccessFailureBlock)failure;
+                  toAlbum:(NSString *)albumName
+                 metadata:(NSDictionary *)metadata
+               completion:(ALAssetsLibraryWriteImageCompletionBlock)completion
+                  failure:(ALAssetsLibraryAccessFailureBlock)failure;
 
 /*! Write the asset to the assets library (camera roll).
  *
@@ -56,9 +56,9 @@ NS_ASSUME_NONNULL_BEGIN
  * \param failure Block to be executed when failed to add the asset to the custom photo album
  */
 - (void)zjs_addAssetURL:(NSURL *)assetURL
-            toAlbum:(NSString *)albumName
-         completion:(ALAssetsLibraryWriteImageCompletionBlock)completion
-            failure:(ALAssetsLibraryAccessFailureBlock)failure;
+                toAlbum:(NSString *)albumName
+             completion:(ALAssetsLibraryWriteImageCompletionBlock)completion
+                failure:(ALAssetsLibraryAccessFailureBlock)failure;
 
 /*! Loads assets w/ desired property from the assets group (album)
  *
@@ -67,8 +67,8 @@ NS_ASSUME_NONNULL_BEGIN
  * \param completion Block to be executed when succeed or failed to load assets from target album
  */
 - (void)zjs_loadAssetsForProperty:(NSString *)property
-                    fromAlbum:(NSString *)albumName
-                   completion:(void (^)(NSMutableArray *array, NSError *error))completion;
+                        fromAlbum:(NSString *)albumName
+                       completion:(void (^)(NSMutableArray *array, NSError *error))completion;
 
 /*! Loads assets from the assets group (album)
  *
@@ -76,7 +76,7 @@ NS_ASSUME_NONNULL_BEGIN
  * \param completion Block to be executed when succeed or failed to load images from target album
  */
 - (void)zjs_loadImagesFromAlbum:(NSString *)albumName
-                 completion:(void (^)(NSMutableArray *images, NSError *error))completion;
+                     completion:(void (^)(NSMutableArray *images, NSError *error))completion;
 
 @end
 

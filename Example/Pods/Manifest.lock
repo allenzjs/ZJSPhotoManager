@@ -1,5 +1,5 @@
 PODS:
-  - ZJSPhotoManager (0.1.0)
+  - ZJSPhotoManager (0.2.0)
 
 DEPENDENCIES:
   - ZJSPhotoManager (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZJSPhotoManager: d45fa4cd2599d39ba8f44ad41ed375d6a4e102c6
+  ZJSPhotoManager: 076222d7541064460214aa0fd5704551f3872e33
 
 PODFILE CHECKSUM: 5947a9113a873f7884ac561cbc5a7127761da242
 

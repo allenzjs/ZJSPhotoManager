@@ -20,8 +20,8 @@
  * \param failure Block to be executed when failed to add the asset to the custom photo album
  */
 - (ALAssetsLibraryWriteImageCompletionBlock)_zjs_resultBlockOfAddingToAlbum:(NSString *)albumName
-                                                             completion:(ALAssetsLibraryWriteImageCompletionBlock)completion
-                                                                failure:(ALAssetsLibraryAccessFailureBlock)failure;
+                                                                 completion:(ALAssetsLibraryWriteImageCompletionBlock)completion
+                                                                    failure:(ALAssetsLibraryAccessFailureBlock)failure;
 
 /*! A block wraper to be executed after |-assetForURL:resultBlock:failureBlock:| succeed.
  *  Generally, this block will be excused when user confirmed the application's access
@@ -35,9 +35,9 @@
  * \return An ALAssetsLibraryAssetForURLResultBlock type block
  */
 - (ALAssetsLibraryAssetForURLResultBlock)_zjs_assetForURLResultBlockWithGroup:(ALAssetsGroup *)group
-                                                                 assetURL:(NSURL *)assetURL
-                                                               completion:(ALAssetsLibraryWriteImageCompletionBlock)completion
-                                                                  failure:(ALAssetsLibraryAccessFailureBlock)failure;
+                                                                     assetURL:(NSURL *)assetURL
+                                                                   completion:(ALAssetsLibraryWriteImageCompletionBlock)completion
+                                                                      failure:(ALAssetsLibraryAccessFailureBlock)failure;
 
 @end
 
@@ -45,8 +45,8 @@
 
 #pragma mark - Private Method
 - (ALAssetsLibraryWriteImageCompletionBlock)_zjs_resultBlockOfAddingToAlbum:(NSString *)albumName
-                                                             completion:(ALAssetsLibraryWriteImageCompletionBlock)completion
-                                                                failure:(ALAssetsLibraryAccessFailureBlock)failure
+                                                                 completion:(ALAssetsLibraryWriteImageCompletionBlock)completion
+                                                                    failure:(ALAssetsLibraryAccessFailureBlock)failure
 {
     return ^(NSURL *assetURL, NSError *error) {
         // Run the completion block for writing image to saved
@@ -62,16 +62,16 @@
         
         // Add the asset to the custom photo album
         [self zjs_addAssetURL:assetURL
-                  toAlbum:albumName
-               completion:completion
-                  failure:failure];
+                      toAlbum:albumName
+                   completion:completion
+                      failure:failure];
     };
 }
 
 - (ALAssetsLibraryAssetForURLResultBlock)_zjs_assetForURLResultBlockWithGroup:(ALAssetsGroup *)group
-                                                                 assetURL:(NSURL *)assetURL
-                                                               completion:(ALAssetsLibraryWriteImageCompletionBlock)completion
-                                                                  failure:(ALAssetsLibraryAccessFailureBlock)failure
+                                                                     assetURL:(NSURL *)assetURL
+                                                                   completion:(ALAssetsLibraryWriteImageCompletionBlock)completion
+                                                                      failure:(ALAssetsLibraryAccessFailureBlock)failure
 {
     return ^(ALAsset *asset) {
         // Add photo to the target album
@@ -93,46 +93,51 @@
 
 #pragma mark - Public Method
 - (void)zjs_saveImage:(UIImage *)image
-          toAlbum:(NSString *)albumName
-       completion:(ALAssetsLibraryWriteImageCompletionBlock)completion
-          failure:(ALAssetsLibraryAccessFailureBlock)failure
+              toAlbum:(NSString *)albumName
+           completion:(ALAssetsLibraryWriteImageCompletionBlock)completion
+              failure:(ALAssetsLibraryAccessFailureBlock)failure
 {
     [self writeImageToSavedPhotosAlbum:image.CGImage
                            orientation:(ALAssetOrientation)image.imageOrientation
                        completionBlock:[self _zjs_resultBlockOfAddingToAlbum:albumName
-                                                              completion:completion
-                                                                 failure:failure]];
-}
-
-- (void)zjs_saveVideo:(NSURL *)videoUrl
-          toAlbum:(NSString *)albumName
-       completion:(ALAssetsLibraryWriteImageCompletionBlock)completion
-          failure:(ALAssetsLibraryAccessFailureBlock)failure
-{
-    [self writeVideoAtPathToSavedPhotosAlbum:videoUrl
-                             completionBlock:[self _zjs_resultBlockOfAddingToAlbum:albumName
-                                                                    completion:completion
-                                                                       failure:failure]];
-}
-
-- (void)zjs_saveImageData:(NSData *)imageData
-              toAlbum:(NSString *)albumName
-             metadata:(NSDictionary *)metadata
-           completion:(ALAssetsLibraryWriteImageCompletionBlock)completion
-              failure:(ALAssetsLibraryAccessFailureBlock)failure
-{
-    [self writeImageDataToSavedPhotosAlbum:imageData
-                                  metadata:metadata
-                           completionBlock:[self _zjs_resultBlockOfAddingToAlbum:albumName
                                                                   completion:completion
                                                                      failure:failure]];
 }
 
-- (void)zjs_addAssetURL:(NSURL *)assetURL
-            toAlbum:(NSString *)albumName
-         completion:(ALAssetsLibraryWriteImageCompletionBlock)completion
-            failure:(ALAssetsLibraryAccessFailureBlock)failure
+- (void)zjs_saveVideo:(NSURL *)videoUrl
+              toAlbum:(NSString *)albumName
+           completion:(ALAssetsLibraryWriteImageCompletionBlock)completion
+              failure:(ALAssetsLibraryAccessFailureBlock)failure
 {
+    [self writeVideoAtPathToSavedPhotosAlbum:videoUrl
+                             completionBlock:[self _zjs_resultBlockOfAddingToAlbum:albumName
+                                                                        completion:completion
+                                                                           failure:failure]];
+}
+
+- (void)zjs_saveImageData:(NSData *)imageData
+                  toAlbum:(NSString *)albumName
+                 metadata:(NSDictionary *)metadata
+               completion:(ALAssetsLibraryWriteImageCompletionBlock)completion
+                  failure:(ALAssetsLibraryAccessFailureBlock)failure
+{
+    [self writeImageDataToSavedPhotosAlbum:imageData
+                                  metadata:metadata
+                           completionBlock:[self _zjs_resultBlockOfAddingToAlbum:albumName
+                                                                      completion:completion
+                                                                         failure:failure]];
+}
+
+- (void)zjs_addAssetURL:(NSURL *)assetURL
+                toAlbum:(NSString *)albumName
+             completion:(ALAssetsLibraryWriteImageCompletionBlock)completion
+                failure:(ALAssetsLibraryAccessFailureBlock)failure
+{
+    // 安全判断
+    if (!albumName.length) {
+        completion(assetURL, nil);
+    }
+    
     __block BOOL albumWasFound = NO;
     
     // Signature for the block executed when a match is found during enumeration using
@@ -153,9 +158,9 @@
             //   access the data, the failure block is called.
             ALAssetsLibraryAssetForURLResultBlock assetForURLResultBlock =
             [self _zjs_assetForURLResultBlockWithGroup:group
-                                          assetURL:assetURL
-                                        completion:completion
-                                           failure:failure];
+                                              assetURL:assetURL
+                                            completion:completion
+                                               failure:failure];
             [self assetForURL:assetURL
                   resultBlock:assetForURLResultBlock
                  failureBlock:failure];
@@ -177,9 +182,9 @@
                 //   add the photo to the newly created album
                 ALAssetsLibraryAssetForURLResultBlock assetForURLResultBlock =
                 [weakSelf _zjs_assetForURLResultBlockWithGroup:group
-                                                  assetURL:assetURL
-                                                completion:completion
-                                                   failure:failure];
+                                                      assetURL:assetURL
+                                                    completion:completion
+                                                       failure:failure];
                 [weakSelf assetForURL:assetURL
                           resultBlock:assetForURLResultBlock
                          failureBlock:failure];
@@ -305,8 +310,8 @@
 }
 
 - (void)zjs_loadAssetsForProperty:(NSString *)property
-                    fromAlbum:(NSString *)albumName
-                   completion:(void (^)(NSMutableArray *, NSError *))completion
+                        fromAlbum:(NSString *)albumName
+                       completion:(void (^)(NSMutableArray *, NSError *))completion
 {
     ALAssetsLibraryGroupsEnumerationResultsBlock block = ^(ALAssetsGroup *group, BOOL *stop) {
         // Checking if library exists
@@ -344,7 +349,7 @@
 }
 
 - (void)zjs_loadImagesFromAlbum:(NSString *)albumName
-                 completion:(void (^)(NSMutableArray *, NSError *))completion
+                     completion:(void (^)(NSMutableArray *, NSError *))completion
 {
     ALAssetsLibraryGroupsEnumerationResultsBlock block = ^(ALAssetsGroup *group, BOOL *stop) {
         // Checking if library exists

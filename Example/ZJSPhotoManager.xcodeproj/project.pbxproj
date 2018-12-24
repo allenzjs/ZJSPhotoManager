@@ -65,7 +65,7 @@
 		A7D1BCFBE6CA1CBF4E500D1A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AD21B2A8727704A898844351 /* Pods_ZJSPhotoManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJSPhotoManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D514F671450095BEC5D52D22 /* Pods-ZJSPhotoManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJSPhotoManager_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJSPhotoManager_Example/Pods-ZJSPhotoManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E02AAA88F1DE71298518B555 /* ZJSPhotoManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZJSPhotoManager.podspec; path = ../ZJSPhotoManager.podspec; sourceTree = "<group>"; };
+		E02AAA88F1DE71298518B555 /* ZJSPhotoManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZJSPhotoManager.podspec; path = ../ZJSPhotoManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F327D663497BE14C18966AAE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
